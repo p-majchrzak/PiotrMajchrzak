@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,6 +27,13 @@ namespace Konsola
             czytaj.Close();
             return listaPiosenek;
         }
+        /**********************************************
+            nazwa funkcji: PobierzPlik
+            opis funkcji: Metoda pobiera dane z pliku i wpisuje do listy.
+            parametry: sciezka - zmienna typu tekstowego, zawiera sciezke do pliku.
+            zwracany typ i opis: listaPiosenek - lista typu Piosenka, zawiera sczytane obiekty z listy
+            autor: PESEL Piotr Majchrzak
+        ***********************************************/
         public static void Wypisz(List<Piosenka> listaPiosenek)
         {
             foreach(Piosenka piosenka in listaPiosenek)
