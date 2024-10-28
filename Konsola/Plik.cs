@@ -30,7 +30,7 @@ namespace Konsola
         {
             foreach(Piosenka piosenka in listaPiosenek)
             {
-                Console.WriteLine($"{piosenka.Artysta}\n{piosenka.Album}\n{piosenka.piosenkaNumer}\n{piosenka.Rok}\n{piosenka.numerPobran}");
+                Console.WriteLine($"{piosenka.Artysta}\n{piosenka.Album}\n{piosenka.piosenkaNumer}\n{piosenka.Rok}\n{piosenka.numerPobran}\n");
             }
         }
     }

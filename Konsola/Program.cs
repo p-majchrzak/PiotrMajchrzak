@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Plik.Wypisz(Plik.PobierzPlik("Data.txt"));
         }
     }
 }
