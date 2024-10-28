@@ -6,8 +6,10 @@ namespace Konsola.Test
         public void DlaMetodyPobierzPlik_KiedyDaneSczytaneZPliku_WtedyZgodnoscPorownywanychDanych()
         {
             List<Piosenka> listaPoprawnych = new List<Piosenka>();
+
             Piosenka poprawneDane1 = new Piosenka("Sprawdzian", "\"5TP1\"", 11, 2018, 11000102);
             listaPoprawnych.Add(poprawneDane1); 
+
             Piosenka poprawneDane2 = new Piosenka("Piotr", "\"Majchrzak\"", 11, 2018, 11000102);
             listaPoprawnych.Add(poprawneDane2);
 
@@ -28,6 +30,7 @@ namespace Konsola.Test
                     break;
                 }
             }
+
             Assert.True(weryfikacja);
         }
     }
